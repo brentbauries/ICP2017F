@@ -12,8 +12,10 @@
 
 **Level:** Undergraduate- Freshaman (first year)
 
-**ICP Class Position** Student
+**ICP Class Position:** Student
 
-**Course Webpage** (http://www.shahmoradi.org/ICP2017F/)
+**Course Webpage:** http://www.shahmoradi.org/ICP2017F/
 
-**Photo** 
+**Photo:** 
+
+![Brent Bauries](https://github.com/brentbauries/ICP2017F/blob/master/redone2-1.jpg)
