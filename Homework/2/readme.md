@@ -4,9 +4,11 @@ b=‘x’ — makes a b character variable with a value of ‘x’
 c=true — makes c a logical variable with value of true(1)
 whos a b c — tells details about a, b, and c variables
 Name Size Bytes Class Attributes
+
  a 1x1 8 double
  b 1x1 2 char
  c 1x1 1 logical
+ 
 a==c — assigns the a variable the value of c (a true logical variable)
 a + c — outputs 2 because a true logical variable has a value of 1
 d = [1 2 3 4] — creates a 1x4 matrix with values 1 2 3 and 4
@@ -20,6 +22,8 @@ whos d e f g h — tells details about variables d, e, f, and h variables
  e 1x4 8 char
  f 1x4 8 char
  h 1x4 491 cell
+ 
+ 
 2)
 >> intmin int16
 ans =
@@ -37,6 +41,8 @@ ans =
 ans =
  int32
  2147483647
+
+
 3)
 basically 2/1
 ans =
@@ -64,6 +70,8 @@ ans =
 5*(4/2)*3
 ans =
  30
+
+
 4a)
 >> a=[1,0;2,1]
 a =
@@ -80,6 +88,8 @@ c =
 >> d=[5]
 d =
  5
+ 
+ 
 4b)
 adding values that are in same locations in matrices
 >> a+b
@@ -122,7 +132,10 @@ cross product of a and d matrices
 ans =
  5 0
  10 5
+
 5)
+
+
 5a)
  >> x=[2,2,2]
 x =
@@ -139,6 +152,8 @@ ans =
  2 0 0
  0 2 0
  0 0 2
+ 
+ 
 5c)
 A =
  0 0 0
@@ -152,9 +167,15 @@ A =
  2 0 0
  0 2 0
  0 0 2
+ 
+ 
 6)
 Code submitted separately.
-7)
+
+
+7)in hw2 folder
+
+
 8)
 File/Users/Brent/Desktop/mynewdir/myscript.m is not found in the current folder or on the MATLAB
 path.
