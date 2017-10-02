@@ -173,7 +173,7 @@ A =
 Code submitted separately.
 
 
-7)in hw2 folder
+7)hw2 folder
 
 
 8)
