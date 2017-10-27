@@ -76,24 +76,24 @@ vertices=struct('x1',2,'y1',4,'x2',1,'y2',1,'x3',-5,'y3',3);
 getTriangleArea(vertices)
 
 7.
-function yesorno = isPrime(n)
+function prime = isPrime(n)
 if n <= 1
-yesorno = false;
+prime = false;
 elseif n <= 3
-yesorno = true;
+prime = true;
 elseif mod(n, 2) == 0
-yesorno = false;
+prime = false;
 else
-yesorno = primedivision(n, 3);
+prime = primedivision(n, 3);
 end
 
-function yesorno2 = primedivision(n, divisor)
+function prime2 = primedivision(n, divisor)
 if (mod(n, divisor) == 0)
-yesorno2 = false;
+prime2 = false;
 elseif divisor >= int32(sqrt(n)) + 1
-yesorno2 = true;
+prime2 = true;
 else
-yesorno2 = primedivision(n, divisor + 2);
+prime2 = primedivision(n, divisor + 2);
 end
 
 8.
